@@ -1,14 +1,9 @@
 {
   "name": "remix-hono-spa",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "fmt": "pnpm biome format --write ./"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@biomejs/biome": "^1.9.4"
   }
