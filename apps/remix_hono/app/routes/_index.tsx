@@ -18,7 +18,7 @@ export default function Index() {
   }
   return (
     <>
-      <h1>Remix + Hono🔥 RPC</h1>
+      <h1>Remix + Hono🔥 SPA</h1>
       <button onClick={onSubmit}>Get Message</button>
       <h1>{message}</h1>
     </>
