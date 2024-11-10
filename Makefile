@@ -1,5 +1,6 @@
 deps:
 	rm -rf pnpm-lock.yaml && rm -rf pnpm-lock.yaml && pnpm install
+	
 # format
 fmt:
 	pnpm fmt
