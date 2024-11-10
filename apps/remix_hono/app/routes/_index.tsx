@@ -1,6 +1,6 @@
 import type { MetaFunction } from '@remix-run/node'
-import { hc } from 'hono/client'
 import { useState } from 'react'
+import { hc } from 'hono/client'
 import { AppType } from 'server'
 
 export const meta: MetaFunction = () => {
